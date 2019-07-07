@@ -1,0 +1,5 @@
+module.exports = {
+    BASE_URL : `http://localhost:3001`,
+    studentNavbarData:JSON.parse(`[{"displayName":"Account","hasIcon":true,"iconFileName":"dashboard.svg","uri":"/viewProfile"},{"displayName":"Dashboard","hasIcon":true,"iconFileName":"dashboard.svg","uri":"/"},{"displayName":"Courses","hasIcon":true,"iconFileName":"courses.svg","uri":"/"},{"displayName":"Enroll Course","hasIcon":true,"iconFileName":"courses.svg","uri":"/enrollCourse"},{"displayName":"Logout","hasIcon":true,"iconFileName":"courses.svg","uri":"/logout"}]`),
+    facultyNavbarData:JSON.parse(`[{"displayName":"Account","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Dashboard","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Courses","hasIcon":true,"iconFileName":"courses.svg"},{"displayName":"Create Course","hasIcon":true,"iconFileName":"courses.svg"}]`)
+}
