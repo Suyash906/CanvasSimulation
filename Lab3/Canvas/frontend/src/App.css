@@ -1,0 +1,31 @@
+.navbar {
+  min-height: 128px;
+}
+/* navbar */
+.navbar-default {
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+}
+.backgroundColorBlue{
+  background-color: #0055A2;
+}
+.backgroundColorWhite{
+  background-color: #FFFFFF;
+}
+
+.textColorWhite{
+  color: #FFFFFF;
+}
+.nav > li > a:hover{
+  background-color:#004482;
+}
+.navHeightWidth{
+  min-width:67.2px;
+  min-height:85px;
+}
+.width100Percent{
+  width: 100%;
+}
+.height100Percent{
+  height: 100%;  
+}
