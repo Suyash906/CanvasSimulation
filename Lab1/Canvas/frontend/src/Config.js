@@ -1,0 +1,7 @@
+module.exports = {
+    BASE_URL : `http://localhost:3001`,
+    studentNavbarData:JSON.parse(`[{"displayName":"Account","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Dashboard","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Courses","hasIcon":true,"iconFileName":"courses.svg"},{"displayName":"Enroll Course","hasIcon":true,"iconFileName":"courses.svg"}]`),
+    facultyNavbarData:JSON.parse(`[{"displayName":"Account","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Dashboard","hasIcon":true,"iconFileName":"dashboard.svg"},{"displayName":"Courses","hasIcon":true,"iconFileName":"courses.svg"},{"displayName":"Create Course","hasIcon":true,"iconFileName":"courses.svg"}]`),
+    studentMenuData:JSON.parse(`[{"displayname":"Home","link":"/assignment"},{"displayname":"Assignment","link":"/assignment"},{"displayname":"Announcement","link":"/announcement"},{"displayname":"Grades","link":"/grades"},{"displayname":"People","link":"/people"},{"displayname":"Files","link":"/files"}]`),
+    facultyMenuData:JSON.parse(`[{"displayname":"Home","link":"/assignment"},{"displayname":"Assignment","link":"/assignment"},{"displayname":"Files","link":"/files"},{"displayname":"Announcement","link":"/announcement"},{"displayname":"Grades","link":"/grades"},{"displayname":"People","link":"/people"}]`)
+}
