@@ -2,6 +2,6 @@
 module.exports = {
     host :  'localhost',
     user:  'root',
-    password:  '$Uyash377201003',
+    password:  '****',
     database:  'canvas'
 }
